@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@mipmap/ic_launcher_round"
+                app:srcCompat="@mipmap/ic_launcher_round" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/label1"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:fontFamily="monospace"
+            android:lineSpacingExtra="10sp"
+            android:text="First Name"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/First_Name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:fontFamily="monospace"
+            android:lineSpacingExtra="10sp"
+            android:text="TextView"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/label2"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:fontFamily="monospace"
+            android:lineSpacingExtra="10sp"
+            android:text="Last Name"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/Last_Name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:fontFamily="monospace"
+            android:text="TextView"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/label3"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:fontFamily="monospace"
+            android:lineSpacingExtra="10sp"
+            android:text="Phone Number"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/Phone"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:fontFamily="monospace"
+            android:text="TextView"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/label4"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:fontFamily="monospace"
+            android:lineSpacingExtra="10sp"
+            android:text="Email Address"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/E-mail"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:fontFamily="monospace"
+            android:text="TextView"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/B_edit"
+            style="@style/Widget.AppCompat.Button.Small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit"
+          />
+        <Button
+            android:id="@+id/delete"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:onClick="deleteClick"/>
+    </LinearLayout>
+</LinearLayout>

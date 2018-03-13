@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@mipmap/ic_launcher_round"
+                app:srcCompat="@mipmap/ic_launcher_round" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/Efirst_name"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:fontFamily="monospace"
+            android:hint="First Name"
+            android:inputType="text"
+            android:textAlignment="textStart"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/Elast_name"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:fontFamily="monospace"
+            android:hint="Last Name"
+            android:inputType="text"
+            android:textAlignment="textStart"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/Ephone"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:fontFamily="monospace"
+            android:hint="Phone Number"
+            android:inputType="number"
+            android:textAlignment="textStart"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/Ee-mail"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:fontFamily="monospace"
+            android:hint="E-mail Address"
+            android:inputType="text"
+            android:textAlignment="textStart"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/Esave"
+            style="@style/Widget.AppCompat.Button.Small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            />
+
+
+    </LinearLayout>
+</LinearLayout>
